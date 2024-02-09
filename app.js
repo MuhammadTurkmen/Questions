@@ -2,3 +2,6 @@
 // traversing the dom
 const btns = document.querySelectorAll('.question-btn')
 
+btns.forEach(function(btn) {
+    
+})
