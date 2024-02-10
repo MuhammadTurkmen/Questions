@@ -3,6 +3,9 @@
 
 const questions = document.querySelector('.question')
 
+questions.forEach(function (question) {
+    const btn = 
+})
 
 
 // const btns = document.querySelectorAll('.question-btn')
