@@ -10,8 +10,8 @@ questions.forEach(function(question) {
 
         questions.forEach(function(itme) {
             if(itme !== question) {
-                
-            }
+                itme.classList.remove('show-text')
+            } 
         })
 
 
