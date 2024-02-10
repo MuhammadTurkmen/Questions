@@ -9,7 +9,9 @@ questions.forEach(function(question) {
 
 
         questions.forEach(function(itme) {
-            
+            if(itme !== question) {
+                
+            }
         })
 
 
