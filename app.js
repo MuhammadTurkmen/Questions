@@ -1,9 +1,15 @@
 //using selectors inside the element
 // traversing the dom
 
-const question = document.querySelector(".question")
+const questions = document.querySelector(".question")
 
-question.forEach()
+questions.forEach(function(question) {
+    const btn = question.querySelector('.question-btn')
+    btn.addEventListener('click', function() {
+        question.classList.toggle('show-text')
+        
+    })
+})
 
 
 
